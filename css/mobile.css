@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1000px) {
+
+  #instafeed-container {
+    grid-template-columns: repeat(2, auto [col-start]);
+  }
+
+}
+@media only screen and (max-width: 850px) {
+  nav {
+    background: #fff;
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 30px; */
+  }
+  
+ #outer-container{
+  padding-top: 100px;
+ }
+  nav a {
+    border-radius: 0px;
+    margin: 0px;
+    font-size: 14px;
+    padding: 20px 30px;
+    width: auto;
+    text-align: left;
+    text-indent: 0;
+    list-style-type: none;
+  }
+
+  .call-to{
+    margin-left: 20px;
+    flex-direction: column;
+  }
+
+  .btn{
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  section{
+    scroll-margin-top: 60px;
+  }
+  .logo{
+    display: block !important;
+    width: 50%;
+    z-index: 1;
+  }
+
+  #burger{
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    text-align: right;
+    margin:  0px;
+    padding: 20px 30px;
+    display: block;
+    width: auto;
+  }
+
+  .open::before{
+    font: var(--fa-font-solid);
+    content: "\f0c9";
+  }
+
+  .close::before{
+    font: var(--fa-font-solid);
+    content: "\f00d";
+  }
+
+
+  #burger:hover{
+    background: none;
+  color: rgb(84, 84, 84);
+  }
+
+
+  .nav-closed > a:not(:first-child:nth-child(2)), .nav-closed > .call-to {
+    display: none;
+  }
+
+  section{
+    width: 90%;
+  }
+
+  #instafeed-container {
+    grid-template-columns: repeat(2, auto [col-start]);
+  }
+};
