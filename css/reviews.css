@@ -11,6 +11,8 @@
 }
 
 .more{
+  border: none;
+  font-weight: bold;
   background-color: #00ce67;
   position: relative;
   bottom: 20px;
