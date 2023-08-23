@@ -57,7 +57,7 @@
   font-style: italic;
   font-weight: bold;
   text-align: center;
-  color: darkgrey;
+  color: rgb(59, 59, 59);
 }
 
 .rating, .title{
@@ -84,7 +84,7 @@
   grid-column-end: 4;
   text-align: right;
   font-size: 14px;
-  color: grey;
+  color: rgb(59, 59, 59);
   /* font-style: italic; */
 }
 

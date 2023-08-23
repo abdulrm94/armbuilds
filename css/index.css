@@ -176,11 +176,11 @@ i {
 }
 
 h1 span{
-  color: #22b573;
+  color: #196341;
 }
-#services h3 {
+#services h2 {
   margin: 10px;
-  color: #22b573;
+  color: #196341;
 
 }
 
@@ -200,8 +200,8 @@ h1 span{
 .services i{
   color: rgb(211, 211, 211);
 }
-.services h4{
-  color: #22b573;
+.services h2{
+  color: #196341;
   padding: 0px;
   margin: 0px;
   margin-top: 10px;
@@ -226,7 +226,7 @@ h1 span{
   position: absolute;
   top: 5px;
   left: 0px;
-  background: #22b573;
+  background: #196341;
   height: 8px;
   width: 8px;
   border-radius: 50%;
