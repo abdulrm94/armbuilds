@@ -23,10 +23,10 @@ a:hover .view{
   opacity: 0;
 }
 
-.instagram{
+.gallery{
   background-color: #621ffe;
   color: #fff;
-  margin-top: -75px;
+  margin-top: -75px !important;
   filter: drop-shadow(5px 5px 30px #000000);
 
   
