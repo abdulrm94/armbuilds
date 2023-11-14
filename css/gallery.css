@@ -1,32 +1,3 @@
-#instafeed-container {
-  display: grid;
-  grid-template-columns: repeat(3, auto [col-start]);
-  grid-column-gap: 25px;
-}
-.ig {
-  /* background: lightgray; */
-  width: 100%;
-  /* height: 300px; */
-  /* border: solid 1px black; */
-  padding: 0px;
-  margin: 0px;
-}
-.ig img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.caption {
-  width: 30ch;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 0;
-  height: 30px;
-  display: flex;
-  align-items: center;
-}
-
 a {
   color: black;
   text-decoration: none;
@@ -55,5 +26,5 @@ a:hover .view{
 .instagram{
   background-color: #621ffe;
   color: #fff;
-
+  margin-top: 25px;
 }
