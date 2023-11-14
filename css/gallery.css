@@ -26,5 +26,13 @@ a:hover .view{
 .instagram{
   background-color: #621ffe;
   color: #fff;
-  margin-top: 25px;
+  margin-top: -75px;
+}
+
+#test{
+  margin-top: -250px;
+  /* background-color: red; */
+  background: linear-gradient(0deg, rgb(217, 188, 255) 0%, rgba(0,0,0,0) 100%);
+  width: 100%;
+  height: 250px;
 }
