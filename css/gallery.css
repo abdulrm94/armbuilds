@@ -1,34 +1,8 @@
-a {
+.gallery-see-more{
   color: black;
   text-decoration: none;
-  background: white;
-}
-
-a:hover img{
-  opacity: 0.25;
-}
-
-a:hover .view{
-  opacity: 1;
-}
-
-.view{
-  margin: 0;
-  padding: 0;
-  position: relative;
-  width: 100%;
-  top: 50%;
-  font-size: 18px;
-  font-weight: 400;
-  opacity: 0;
-}
-
-.gallery{
-  background-color: #621ffe;
+  background-color: blue;
   color: #fff;
   margin-top: -75px !important;
   filter: drop-shadow(5px 5px 30px #000000);
-
-  
 }
-
